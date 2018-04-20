@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+    <link rel="stylesheet" href="/app/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/app/assets/css/bootstrap-select.css">
+    <link rel="stylesheet" href="/app/assets/css/oneui.css">
+    <link rel="stylesheet" href="/app/assets/css/style.css">
+
+    <title>USUM</title>
+</head>
+<body>
+<div id="page-container" class="sidebar-l sidebar-o side-scroll header-navbar-fixed">
+<div id="app"></div>
+</div>
+<script src="/app/bundle.js"></script>
+<script src="/app/assets/js/core/jquery.min.js"></script>
+<script src="/app/assets/js/core/bootstrap.min.js"></script>
+<script src="/app/assets/js/core/bootstrap-select.js"></script>
+<script src="/app/assets/js/core/jquery.slimscroll.min.js"></script>
+<script src="/app/assets/js/core/jquery.scrollLock.min.js"></script>
+<script src="/app/assets/js/core/jquery.appear.min.js"></script>
+<script src="/app/assets/js/core/jquery.countTo.min.js"></script>
+<script src="/app/assets/js/core/jquery.placeholder.min.js"></script>
+<script src="/app/assets/js/core/js.cookie.min.js"></script>
+<script src="/app/assets/js/app.js"></script>
+
+<script src="/app/assets/js/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+<script src="/app/assets/js/plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="/app/assets/js/pages/base_forms_wizard.js"></script>
+<script src="/app/assets/js/plugins/masked-inputs/jquery.maskedinput.min.js"></script>
+<script src="/app/assets/js/style.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".modal").click(function(){
+            $("#modal-fadein-delete").modal({
+                backdrop: 'static',
+                keyboard: false,
+                show: false
+            });
+        });
+    });
+
+</script>
+</body>
+</html>
